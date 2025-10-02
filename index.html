@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    h1 {
+        text-transform: uppercase;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 900px;
+    }
+
+    th,
+    td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background: #f0f0f0;
+    }
+
+    button {
+        margin-right: 6px;
+    }
+
+    #controls {
+        margin-bottom: 10px;
+    }
+</style>
+
+<body>
+    <h2> Liste des Employés </h2>
+    <table id="employeesTable">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Sexe</th>
+                <th>Nombre d'enfants</th>
+                <th>Salaire Brut (DH)</th>
+                <th>Salaire Net (DH)</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <div id="controls">
+        <!-- Bouton pour revenir à la vue complète si on a simplifié -->
+        <button id="restoreBtn" style="display:none">Restaurer</button>
+    </div>
+    <div class="tp2">
+        <h1>TP2</h1>
+        <h2 onclick="showHxContent(1)">Partie1</h2>
+        <div id="title1" style="display: none">
+            <p>Mon premier paragraphe</p>
+            <p>Mon deuxième paragraphe</p>
+        </div>
+        <h2 onclick="showHxContent(2)">Partie2</h2>
+        <div id="title2" style="display: none">
+            <p>Mon premier paragraphe</p>
+            <p>Mon deuxième paragraphe</p>
+        </div>
+        <p>
+            <input type="submit" value="Masquer" onclick="HideAllDivs()" />
+        </p>
+        <p>
+            Title n°:<input type="text" id="title" />
+            <input type="submit" value="Afficher" onclick="AlertTitle()" />
+        </p>
+    <div>
+        <button onclick="deleteTitle()">Supprimer le titre</button>
+        <button onclick="defineTitle()">Definir un titre</button>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

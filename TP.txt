@@ -1,0 +1,17 @@
+Evaluation JavaScript
+
+Q1 : JavaScript est un langage interprété côté client, il s'exécute directement dans le navigateur web.
+Il est aussi un Langage faiblement typé et dynamique, c’est à dire, les variables n'ont pas besoin d'avoir un type déclaré explicitement.
+Q2 : Pour développer et tester un programme JavaScript ont est besoin :
+Pour le développement :
+-	 Un éditeur de code : Visual Studio Code, ou même un simple éditeur de texte.
+-	 Un navigateur web : Chrome, Firefox, pour exécuter le code. Ou on peut utiliser Node.js pour exécuter JavaScript hors du navigateur
+Pour le test : On est besoin d’une console du navigateur, elle permet d'exécuter du code JavaScript et voir les erreurs.
+Q3 :     1. Pour changer le contenu de l’élément HTML : 
+Document.getElementById("demo").innerHTML= "Bonjour !!"
+2. Une fonction est déclarée en JavaScript comme suit : function MyFunction(parm1, parm2, …)
+Q4 :
+1.	ECMAScript C'est la norme qui définit les règles du langage JavaScript. C'est comme un cahier des charges qui précise la syntaxe du langage, les types de données et les fonctionnalités (variables, fonctions, boucles, etc.).
+2.	DOM : C'est la représentation structurée d'une page HTML sous forme d'arbre d'objets.
+
+
